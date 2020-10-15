@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap'); 
+body {
+  box-sizing: border-box;
+  width: 80%;
+  margin: 5% auto;
+}
+header img {
+  box-shadow: 2px 2px 3px black;
+}
+header img:hover{
+  box-shadow: 3px 3px 4px black;
+}
+#div1{
+  display: inline-block;
+}
+header ul {
+  display: inline-block;
+  float: right;
+  margin-left: 2px;
+  padding: 12px;
+}
+header ul li{
+  display: inline-block;
+}
+#div1 h4 {
+font: 30px bold black;
+font-family:  'Yellowtail', cursive;
+margin-left: 10px;
+}
+#div1 h5{
+    font-size: 10px;
+    color: rgb(112, 112, 112);
+    margin-left: 10px;
+}
+
+.hr1{
+  background-image: url('../img/hr-img.png');
+  height: 10px;
+  border: 0px;
+  margin: 2% 0;
+}
+main h1 {
+  font: 30px bold;
+  font-family: 'Francois One', sans-serif; 
+}
+main h2{
+  font-size: 10px;
+  color: rgb(112, 112, 112);
+}
+.float {
+  float: right;
+  color: gray;
+}
+#choco-pizza{
+ width: 100%;
+}
+main p{
+  text-indent: 15px;
+  font-size: 20px;
+  text-align: left;
+  color: lightslategray;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2%;
+}
+.column {
+display: flex;
+list-style: none;
+background-image: url('../img/list-bg.png');
+background-size: cover;
+background-repeat: round;
+padding: 60px;
+font-family: 'Chilanka', cursive;
+}
+.form-left{
+margin-left: 250px;
+}
+ #footer1{
+  display: inline-block;
+  border: 2px black;
+  line-height: 1.5;
+}
+#footer1 h3{
+  font: 20px bold;
+  margin-left: 10px;
+}
+#footer1 p{
+font-size: 20px;
+font-style: italic;
+}
+#shareRecipe{
+  padding: 10px;
+  color: white;
+  background-color:rgb(182, 0, 0);
+  border: none;
+  float: right;
+  margin-top: 35px;
+  font: 15px bold;
+}
+#shareRecipe:hover{
+  box-shadow: 1px 1px 2px black;
+}
+#footer2{
+  text-align: center;
+  margin-top: 100px;
+  color: lightslategray;
+}
+#footer2 p{
+  margin: auto;
+  text-align: center;
+  line-height: 1.5;
+}
+#hr0{
+  width: 45%;
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+}
